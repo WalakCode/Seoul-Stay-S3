@@ -1,0 +1,17 @@
+@font-face {font-family: "IRANSansWeb";
+    src: url("./fonts/iranSans/IRANSansWeb.eot"); /* IE9*/
+    src: url("./fonts/iranSans/IRANSansWeb.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/iranSans/IRANSansWeb.woff2") format("woff2"), /* chrome、firefox */
+    url("./fonts/iranSans/IRANSansWeb.woff") format("woff"), /* chrome、firefox */
+    url("./fonts/iranSans/IRANSansWeb.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("./fonts/iranSans/IRANSansWeb.svg#IRANSansWeb Medium Regular") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "IRANSansWebMedium";
+    src: url("./fonts/iranSans-medium/IRANSansWeb-Medium.eot"); /* IE9*/
+    src: url("./fonts/iranSans-medium/IRANSansWeb-Medium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/iranSans-medium/IRANSansWeb-Medium.woff2") format("woff2"), /* chrome、firefox */
+    url("./fonts/iranSans-medium/IRANSansWeb-Medium.woff") format("woff"), /* chrome、firefox */
+    url("./fonts/iranSans-medium/IRANSansWeb-Medium.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("./fonts/iranSans-medium/IRANSansWeb-Medium.svg#IRANSansWeb Medium Regular") format("svg"); /* iOS 4.1- */
+}
