@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mis Productos</title>
 </head>
 <body>
-    adad
+    <h1>fecha</h1>
+    <form action="item" method="post">
+    <input type="text" name="search">
+    <button>GO</button>
+    </form>
+  <h1>Items</h1>
+  <ul>
+    <% data.forEach(dato => { %>
+      <li><%= dato.Title %></li>
+      <li><%= dato.AreaID %></li>
+      <li><%= dato.Capacity %></li>
+      <li><%= dato.Price %></li>
+    <% }); %>
+  </ul>
 </body>
 </html>
